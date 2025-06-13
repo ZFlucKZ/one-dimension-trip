@@ -18,7 +18,7 @@ function minEnergy(start, target, stations, shops) {
     {
       position: start,
       energy: 0,
-      shops: shops,
+      shops: new Set(shops),
     },
   ];
 
